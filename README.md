@@ -1,6 +1,9 @@
 # LED-driver
 *Slave LED driver controlled by MODBUS RTU protocol*
 
+### Hardware unit
+MCU: Atmel AtMega8 with 14.7456 MHz
+
 **ModbusID** - address of unit
 
 **SetREG** - change register value
