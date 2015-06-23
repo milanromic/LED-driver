@@ -6,7 +6,9 @@ MCU: Atmel AtMega8 with 14.7456 MHz
 
 **ModbusID** - address of unit
 
-**SetREG** - change register value
+void **SetREG**(unsigned int index, unsigned int val) - change register value
+
+unsigned int **GetREG**(unsigned int index) - return value of register
 
 For example:
 

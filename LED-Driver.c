@@ -21,9 +21,10 @@ int main(void)
 	
 	while(1)
 	{
+		/* Count of received bytes */
 		RXindex = GetRXindex();
 
-		/* Modbus ID address 22 */
+		/* Modbus ID address check */
 		if(RXindex > 7 && GetRXitem(0) == ModbusID)
 		{
 			BurnRXArray(rx);
@@ -63,11 +64,7 @@ int main(void)
 			SetRXtimeout(1000);
 			
 		}
-/*		else
-		{
-			PORTB &= 0b11111110;
-		}
-*/		
+
 		/* Update digital outputs */
 		UpdateDigitalOutputs();
 		/* Update digital inputs */
