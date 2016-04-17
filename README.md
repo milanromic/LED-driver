@@ -7,6 +7,11 @@ XTAL: 14.7456 MHz<br />
 USART Baud Rate: 9600<br />
 Communication Parameters: 8 Data, 1 Stop, No Parity<br />
 
+Digital inputs: 2<br />
+PWM outputs: 4<br />
+Power supply: 12 VDC<br />
+Communication: RS485<br />
+
 ModbusID - address of unit
 
 `void SetREG(unsigned int index, unsigned int val)` - change register value<br />
