@@ -1,4 +1,4 @@
-# LED-driver
+# Modbus LED driver
 *Slave LED driver controlled by MODBUS RTU protocol*
 
 ### Hardware unit
